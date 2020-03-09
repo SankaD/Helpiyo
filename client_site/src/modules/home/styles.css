@@ -1,0 +1,32 @@
+.container {
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+}
+
+.feedPanel {
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    flex: 5;
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.leftPanel {
+    flex: 1;
+    /*background-color: lightgray;*/
+    padding: 5px;
+}
+
+.rightPanel {
+    flex: 1;
+    /*background-color: lightgray;*/
+    padding: 5px;
+}

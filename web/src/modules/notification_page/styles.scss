@@ -1,0 +1,40 @@
+@import "../../common.scss";
+
+.notification-page {
+    .profile-image {
+        width: 5em;
+        height: 5em;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    .notification {
+        flex-direction: row;
+
+        .text {
+            margin-left: 1em;
+            flex: 1;
+            padding-top: 0.5em;
+            color: $dark_font_color;
+        }
+
+        .right-panel {
+            align-items: flex-end;
+            justify-content: flex-end;
+            text-align: right;
+            padding-right: 1em;
+            vertical-align: middle;
+            padding-top: 0.5em;
+        }
+
+        .time {
+            color: $dark_font_color;
+        }
+
+        .dot {
+            box-shadow: none;
+            border: none;
+            background-color: transparent !important;
+        }
+    }
+}

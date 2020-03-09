@@ -1,0 +1,51 @@
+@import "../../../common.scss";
+
+.request-editor {
+  min-height: 10em;
+  height: auto;
+
+  // height: 12em;
+
+  textarea {
+    resize: none !important;
+  }
+
+  #send-button {
+    margin-left: auto;
+    margin-right: 0.5em;
+    color: $color_3 !important;
+  }
+
+  .button-panel {
+    justify-content: space-between;
+  }
+
+  .send-button-panel {
+    float: right;
+    margin-right: 2em;
+  }
+
+  .button {
+  }
+
+  .active {
+    color: $color_3;
+  }
+
+  .payment-group {
+    padding: 1em;
+  }
+  .payment-input {
+    input {
+      border-top-right-radius: 0 !important;
+      border-bottom-right-radius: 0 !important;
+      border-right: transparent !important;
+    }
+  }
+  .currency-list {
+    width: 5em !important;
+    min-width: 5em !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+}

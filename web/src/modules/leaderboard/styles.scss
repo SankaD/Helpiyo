@@ -1,0 +1,49 @@
+@import "../../common.scss";
+
+.leaderboard {
+    height: 100%;
+
+    .filters {
+        flex-direction: row;
+
+        .icon {
+            flex: 1;
+        }
+
+        .input {
+            flex: 1;
+        }
+    }
+
+    .profile-image {
+        width: 5em;
+        height: 5em;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    .entry {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: $color_3;
+        color: $light_font_color;
+        padding-right: 1em;
+
+        .ranking {
+            justify-self: flex-end;
+            margin-left: 1em;
+            font-size: 2em;
+            min-width: 2em;
+            text-align: right;
+        }
+    }
+
+    .display-name {
+        font-weight: bold;
+        margin-left: 1em;
+        vertical-align: middle;
+        justify-content: center;
+        flex: 1;
+    }
+}

@@ -1,0 +1,25 @@
+@import "../../../common";
+
+.search-box {
+    width: 100% !important;
+    height: 100% !important;
+    flex: 1;
+    background-color: $color_2;
+    width: auto;
+    border-radius: 0.5em;
+    font-size: 1em;
+    padding: 1em;
+    color: $light_font_color;
+
+    .search {
+        color: $light_font_color;
+    }
+
+    .search-results {
+        width: 100% !important;
+        flex: 1;
+
+        // margin-top: 1em !important;
+   
+    }
+}

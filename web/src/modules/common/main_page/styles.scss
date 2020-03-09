@@ -1,0 +1,112 @@
+@import "../../../common.scss";
+
+.main-page {
+    min-height: 100vh;
+    margin: 0 !important;
+    background-color: $color_5;
+
+    .icon-with-count {
+        padding: 0em;
+        text-align: center;
+        justify-content: center;
+
+        .count {
+            color: #FFFFFF;
+            margin-top: 0.5em;
+        }
+    }
+
+    .main-container {
+        height: 100%;
+        width: 90%;
+        max-width: 55em;
+        padding: 0em;
+
+        // padding-right: 1em;
+        // padding-left: 1em;
+        margin: auto;
+        background-color: $color_5;
+        border: none;
+    }
+
+    .pushable {
+        min-height: 95vh;
+        margin: 0 !important;
+        border: none !important;
+        background-color: $color_5;
+
+        .menu-item {
+            font-size: 1.2em;
+            text-align: left !important;
+
+            // margin: auto;
+
+            #icon {
+                float: left !important;
+                margin-right: 1em !important;
+                margin-top: -0.2em !important;
+            }
+
+            span {}
+        }
+
+        .sidebar {
+            background-color: $color_3;
+        }
+    }
+
+    .menu {
+        margin: 0 !important;
+        background-color: $color_3;
+        border-radius: 0;
+    }
+
+    .search-item {
+        flex: 1 !important;
+    }
+
+    .cover-image {
+        z-index: -1 !important;
+        position: absolute !important;
+        flex: 1;
+        object-fit: cover;
+        height: 100%;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        opacity: 0.5;
+    }
+
+    .profile-panel-item {
+        padding: 0px !important;
+    }
+
+    .profile-panel {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+
+        .profile-image {
+            margin: auto;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-radius: 50%;
+            object-fit: cover;
+            height: 15em;
+            width: 15em;
+        }
+
+        .display-name {
+            font-size: 2em;
+            margin-bottom: 1em;
+        }
+
+        .button-panel {
+            margin: auto;
+            width: 100%;
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+        }
+    }
+}

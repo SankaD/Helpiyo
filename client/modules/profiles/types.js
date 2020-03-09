@@ -1,0 +1,51 @@
+import helper from '../utils/type_helper';
+
+const NAME = 'profiles';
+
+export const LOAD_PROFILE = helper(NAME, 'LOAD_PROFILE');
+export const LOADING_PROFILE = helper(NAME, 'LOADING_PROFILE');
+export const PROFILE_LOADED = helper(NAME, 'PROFILE_LOADED');
+export const LOAD_PROFILE_FAILED = helper(NAME, 'LOAD_PROFILE_FAILED');
+
+export const FOLLOW_PROFILE = helper(NAME, 'FOLLOW_PROFILE');
+export const PROFILE_FOLLOWED = helper(NAME, 'PROFILE_FOLLOWED');
+export const FOLLOW_PROFILE_FAILED = helper(NAME, 'FOLLOW_PROFILE_FAILED');
+
+export const UNFOLLOW_PROFILE = helper(NAME, 'UNFOLLOW_PROFILE');
+export const PROFILE_UNFOLLOWED = helper(NAME, 'PROFILE_UNFOLLOWED');
+export const UNFOLLOW_PROFILE_FAILED = helper(NAME, 'UNFOLLOW_PROFILE_FAILED');
+
+export const CHECKING_FOLLOWING = helper(NAME, 'CHECKING_FOLLOWING');
+export const CHECKING_FOLLOWING_FAILED = helper(NAME, 'CHECKING_FOLLOWING_FAILED');
+export const FOLLOWING_CHECKED = helper(NAME, 'FOLLOWING_CHECKED');
+
+// export const SET_ACHIEVEMENT_PROFILE = helper(NAME, 'SET_ACHIEVEMENT_PROFILE');
+export const LOAD_BADGES = helper(NAME, 'LOAD_BADGES');
+export const LOAD_BADGES_FAILED = helper(NAME, 'LOAD_BADGES_FAILED');
+export const BADGES_LOADED = helper(NAME, 'BADGES_LOADED');
+export const SHOW_BADGES = helper(NAME, 'SHOW_BADGES');
+
+export const SHOW_BADGE = helper(NAME, 'SHOW_BADGE');
+
+export const UPLOAD_PROFILE_PIC = helper(NAME, 'UPLOAD_PROFILE_PIC');
+export const PROFILE_PIC_UPLOADED = helper(NAME, 'PROFILE_PIC_UPLOADED');
+export const UPLOAD_PROFILE_PIC_FAILED = helper(NAME, 'UPLOAD_PROFILE_PIC_FAILED');
+
+export const LOAD_ACTIVITIES = helper(NAME, 'LOAD_ACTIVITIES');
+export const ACTIVITIES_LOADED = helper(NAME, 'ACTIVITIES_LOADED');
+export const LOAD_ACTIVITIES_FAILED = helper(NAME, 'LOAD_ACTIVITIES_FAILED');
+
+export const REPORT_PROFILE = helper(NAME, 'REPORT_PROFILE');
+export const PROFILE_REPORTED = helper(NAME, 'PROFILE_REPORTED');
+export const REPORT_PROFILE_FAILED = helper(NAME, 'REPORT_PROFILE_FAILED');
+
+export const CHANGE_DISPLAY_NAME = helper(NAME, 'CHANGE_DISPLAY_NAME');
+export const DISPLAY_NAME_CHANGED = helper(NAME, 'DISPLAY_NAME_CHANGED');
+export const CHANGE_DISPLAY_NAME_FAILED = helper(NAME, 'CHANGE_DISPLAY_NAME_FAILED');
+export const SHOW_DISPLAY_NAME_MODAL = helper(NAME, 'SHOW_DISPLAY_NAME_MODAL');
+export const HIDE_DISPLAY_NAME_MODAL = helper(NAME, 'HIDE_DISPLAY_NAME_MODAL');
+
+export const LOAD_WALLET_DATA = helper(NAME, 'LOAD_WALLET_DATA');
+export const WALLET_DATA_LOADED = helper(NAME, 'WALLET_DATA_LOADED');
+export const LOAD_WALLET_DATA_FAILED = helper(NAME, 'LOAD_WALLET_DATA_FAILED');
+

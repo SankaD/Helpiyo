@@ -1,0 +1,35 @@
+.profile-page {
+    .profile-cover {
+        z-index: 0 !important;
+        position: absolute !important;
+        flex: 1;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+        filter: blur(0.3em);
+        -webkit-filter: blur(0.3em);
+    }
+
+    .profile-details {
+        z-index: 1;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+
+        .profile-image {
+            margin: auto;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            border-radius: 50%;
+            object-fit: cover;
+            height: 15em;
+            width: 15em;
+        }
+
+        .display-name {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.Container {
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.logoPanel {
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.logoImage {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.logo {
+    /*background-color: #61dafb;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.signPanel {
+    margin: 20px;
+}
+
+.signPanelBody {
+    margin: auto;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

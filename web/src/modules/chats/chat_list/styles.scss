@@ -1,0 +1,37 @@
+.chat-list {
+    .chat {
+        flex-direction: row;
+
+        .profile-image {
+            width: 5em;
+            height: 5em;
+            object-fit: cover;
+            border-radius: 100%;
+        }
+
+        .chat-details {
+            flex-direction: column;
+            margin-left: 1em;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+            flex: 1;
+        }
+
+        .display-name {
+            font-weight: bold;
+            font-size: 1.4em;
+        }
+
+        .last-message {
+            opacity: 0.6;
+            margin-top: 0.5em;
+        }
+
+        .chat-meta {
+            margin-right: 1em;
+            padding-top: 0.5em;
+        }
+
+        .time {}
+    }
+}

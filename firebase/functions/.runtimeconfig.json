@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "helpiyo",
+    "url": "https://35.233.8.199:8529",
+    "mongodb_url": "mongodb+srv://prod_user:tQBkg0EibAD8Rbf5@helpiyo-enfk3.gcp.mongodb.net/helpiyo?retryWrites=true",
+    "user": "helpiyo",
+    "mongo_url": "mongodb://prod_user:tQBkg0EibAD8Rbf5@helpiyo-shard-00-00-enfk3.gcp.mongodb.net:27017,helpiyo-shard-00-01-enfk3.gcp.mongodb.net:27017,helpiyo-shard-00-02-enfk3.gcp.mongodb.net:27017/helpiyo?ssl=true&replicaSet=helpiyo-shard-0&authSource=admin&retryWrites=true",
+    "password": "p#SDF2%52S"
+  },
+  "wordpress-1-config": {
+    "status": {
+      "success": {}
+    }
+  }
+}

@@ -1,0 +1,67 @@
+.signin-page {
+  background: #AAAA url("../../../images/auth_background.jpg") no-repeat;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  .header {
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding-top: 2em;
+    margin-bottom: 3em;
+  }
+  .tagline {
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .filler {
+    flex-direction: column;
+    flex: 2;
+    height: auto;
+  }
+  .login-form {
+    flex-direction: column;
+    //position: absolute;
+    flex: 1;
+    display: flex;
+    //width: 90%;
+    align-self: center;
+    justify-content: center;
+    margin: 1em;
+    bottom: 1em;
+    padding: 1em;
+    background-color: #44453FAA;
+    border-radius: 1em;
+    .email {
+      margin-bottom: 1em;
+    }
+    .button {
+      margin-top: 1em;
+    }
+  }
+  .bottom-links {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex: 1;
+    padding: 1em;
+    display: flex;
+
+    .signup {
+      color: lightgrey;
+      font-size: small;
+      background-color: #2223;
+      padding: 0.5em;
+      border-radius: 0.5em;
+    }
+    .help {
+      color: lightgrey;
+      font-size: small;
+      background-color: #2223;
+      padding: 0.5em;
+      border-radius: 0.5em;
+    }
+  }
+}

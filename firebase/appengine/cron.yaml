@@ -1,0 +1,36 @@
+cron:
+- description: Push a "tick" onto pubsub every hour
+  url: /publish/hourly-tick
+  schedule: every 1 hours
+
+- description: Push a "tick" onto pubsub every day
+  url: /publish/daily-tick
+  schedule: every 24 hours
+
+- description: Push a "tick" onto pubsub every week
+  url: /publish/weekly-tick
+  schedule: every saturday 00:00
+
+- description: Push a "tick" to calculate rankings
+  url: /publish/calculate-rankings
+  schedule: every 1 hours
+
+- description: Push a "tick" to calculate early-adopter
+  url: /publish/calculate-early-adopter
+  schedule: every 1 hours
+
+- description: Push a "tick" to calculate top hero
+  url: /publish/calculate-top-hero
+  schedule: 1 of month 00:00
+
+- description: Push a "tick" to archive requests
+  url: /publish/archive-requests
+  schedule: every 24 hours
+
+- description: Push a "tick" to update image links
+  url: /publish/update-image-links
+  schedule: every 24 hours
+
+- description: Push a "tick" to archive sos requests
+  url: /publish/complete-old-sos
+  schedule: every 24 hours

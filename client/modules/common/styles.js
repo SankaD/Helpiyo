@@ -1,0 +1,93 @@
+import { StyleSheet } from 'react-native';
+
+const colors = {
+  color_0: '#000000',
+  color_1: '#00171F',
+  color_2: '#003459',
+  color_3: '#007EA7',
+  color_4: '#00A8E8',
+  // color_5: '#9EABE2',
+  color_6: '#FFFFFF',
+  error_color: '#ee0720',
+  error_background: '#FFFFFF00',
+  sosColor: '#ee0720',
+  label_color: '#FFFFFF',
+  input_color: '#FFFFFAA',
+  ok_button_color: '#54c156',
+  yellow: '#dbee30',
+  pink: '#ee68ad',
+  formBackground: '#00171F',
+  gray: '#AAAAAA',
+  dark_gray: '#444444',
+  light_gray: '#DDDDDD',
+  red: '#ee0720',
+  green: '#3FAF3F',
+  blue: '#5576aa',
+  activeElement: '#3FAF3F',
+  ongoingElement: '#5576aa',
+  inactiveElement: '#AAAAAA',
+  rejectedElement: '#e8ee60',
+  ratingLabel: '#3FAF3F',
+  darkTransparentBackground: '#333333AA',
+  lightTransparentBackground: '#EEEEEE11',
+  emptyPageBackground: '#DDDDDD',
+  transparent: 'transparent',
+  feed_button_text: '#5576aa',
+};
+const icons = {
+  request: 'hand',
+  requests: 'hand',
+  response: 'account-check',
+  responses: 'account-multiple-check',
+  service: 'briefcase-check',
+  services: 'briefcase-check',
+  sos: 'alarm-light',
+};
+
+const styles = StyleSheet.create({
+  textInput: {
+    backgroundColor: '#eeeeeeaa',
+    borderRadius: 10,
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 0,
+    marginRight: 0,
+  },
+  button: {
+    backgroundColor: colors.color_3,
+    borderRadius: 10,
+    height: 50,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 0,
+    marginRight: 0,
+  },
+  buttonText: {
+    color: '#FFF',
+    fontSize: 20,
+  },
+  touchPanel: {
+    marginTop: 10,
+    marginBottom: 10,
+    marginLeft: 0,
+    marginRight: 0,
+    borderWidth: 1,
+    borderRadius: 10,
+    padding: 10,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  touchPanelText: {
+    color: '#FFF',
+  },
+  heading: {
+    alignSelf: 'center',
+    fontSize: 24,
+    fontWeight: 'bold',
+    margin: 20,
+  },
+});
+
+export default { styles, colors, icons };

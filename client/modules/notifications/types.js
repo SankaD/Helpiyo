@@ -1,0 +1,19 @@
+import helper from '../utils/type_helper';
+
+const NAME = 'notifications';
+
+export const LOAD_NOTIFICATIONS = helper(NAME, 'LOAD_NOTIFICATIONS');
+export const NOTIFICATIONS_LOADED = helper(NAME, 'NOTIFICATIONS_LOADED');
+export const LOAD_NOTIFICATIONS_FAILED = helper(NAME, 'LOAD_NOTIFICATIONS_FAILED');
+
+export const CLEAR_NOTIFICATIONS = helper(NAME, 'CLEAR_NOTIFICATIONS');
+export const NOTIFICATIONS_CLEARED = helper(NAME, 'NOTIFICATIONS_CLEARED');
+export const CLEAR_NOTIFICATIONS_FAILED = helper(NAME, 'CLEAR_NOTIFICATIONS_FAILED');
+
+export const MARK_AS_READ = helper(NAME, 'MARK_AS_READ');
+export const MARKED_AS_READ = helper(NAME, 'MARKED_AS_READ');
+export const MARK_AS_READ_FAILED = helper(NAME, 'MARK_AS_READ_FAILED');
+
+export const MARK_MESSAGE_AS_READ = helper(NAME, 'MARK_MESSAGE_AS_READ');
+export const MARKED_MESSAGE_AS_READ = helper(NAME, 'MARKED_MESSAGE_AS_READ');
+export const MARK_MESSAGE_AS_READ_FAILED = helper(NAME, 'MARK_MESSAGE_AS_READ_FAILED');
